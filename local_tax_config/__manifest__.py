@@ -1,0 +1,23 @@
+{
+    'name': 'Local Tax Configuration',
+    'version': '18.0.0.1.0',
+    'sequence': 1,
+    'author': 'Centrics Business Solutions',
+    'maintainer': 'Centrics Business Solutions',
+    'company': 'Centrics Business Solutions',
+    'website': 'http://www.centrics.cloud/',
+    'category': 'Accounting/Accounting',
+    'license': 'LGPL-3',
+    'summary': 'Local Tax Configuration',
+    'description': """Local Tax Configuration""",
+    'depends': ['sale', 'account'],
+    'external_dependencies': {},
+    'data': [
+        'views/inherit_tax_view.xml',
+        'views/inherit_customer_view.xml',
+    ],
+    'images': [],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
